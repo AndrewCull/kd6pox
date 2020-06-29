@@ -15,3 +15,17 @@ collections:
       - {label: 'Publish Date', name: 'date', widget: 'datetime'}
       - {label: 'Tags', name: 'Tags', widget: 'list'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
+  - name: '../content/projects' # Used in routes, e.g., /admin/collections/blog
+    label: 'Projects' # Used in the UI
+    folder: '../content/projects' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Description', name: 'description', widget: 'string'}
+      - {label: 'Logo', name: 'logo', widget: 'image'}
+      - {label: 'Role', name: 'role', widget: 'string'}
+      - {label: 'Start Date', name: 'startDate', widget: 'datetime'}
+      - {label: 'End Date', name: 'endDate', widget: 'datetime'}
+      - {label: 'Publish Date', name: 'date', widget: 'datetime'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}

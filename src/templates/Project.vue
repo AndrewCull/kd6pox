@@ -23,12 +23,12 @@ query project ($path: String!) {
 export default {
 metaInfo() {
     return {
-      title: this.$page.post.title,
-      meta: [
+      title: this.$page.project.title,
+  /*    meta: [
         {
           key: 'og:description',
           name: 'og:description',
-          content: this.$page.post.description,
+          content: this.$page.project.description,
         },
 
         {
@@ -36,8 +36,7 @@ metaInfo() {
           name: 'twitter:description',
           content: this.$page.post.description,
         },
-      ],
-    }
+      ], */     }
   },
 };
 </script>
