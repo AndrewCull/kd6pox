@@ -1,0 +1,22 @@
+---
+title: "1977 Cessna 180K Skywagon For Sale"
+date: "2017-01-28"
+layout: post
+path: "/cessna-skywagon-180-for-sale/"
+
+---
+After three years of amazing flying, it's been an honor to own such an amazing aircraft.  She's a very capable backcountry / IFR aircraft with execeptional performance, but doesn't have enough seats for my family after an unexpected but welcome addition..
+
+If your interested, please <a href="https://www.kd6pox.com/cessna-skywagon-180-for-sale/1977Cessna180KForSale.pdf" onClick="ga(‘send’, ‘event’, ‘ Downloads’, ‘Click’, ‘Aircraft Sales Sheet’,{‘NonInteraction’: 1});"> download the sales sheet </a>.
+
+## Aircraft Logs
+[Airframe Log](N184TCAirframeLog.pdf)
+
+[Modifications & Installations](N184TCInstallationsModifications.pdf)
+
+[Engine Log](N184TCEngineLog.pdf)
+
+
+
+![Skywagon Parked at Shearer Airstrip in Idaho](n184tc-shearer.jpg)
+
