@@ -8,6 +8,13 @@ module.exports = {
   siteName: 'Andrew Cull',
   siteUrl: "https://www.kd6pox.com",
   siteDescription: "Personal Blog",
+  transformers: {
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+    }
+  },
   plugins: [
     {
       use: `gridsome-plugin-netlify-cms`,
@@ -25,7 +32,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options:
       {
-        path: 'content/writing/**/*.md',
+        path: 'writing/**/*.md',
         typeName: 'Post',
         remark: {
           plugins: []
@@ -42,7 +49,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'content/projects/**/*.md',
+        path: 'projects/**/*.md',
         typeName: 'Project',
         remark: {}
       }
