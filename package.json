@@ -17,7 +17,6 @@
     "gridsome-plugin-netlify-cms": "^1.0.9",
     "gridsome-plugin-robots-txt": "^1.0.2",
     "netlify-cms": "^2.10.51",
-    "slugify": "^1.4.4",
     "tachyons": "^4.12.0",
     "vue-moment": "^4.1.0",
     "vue-share-it": "^1.1.1"
