@@ -1,8 +1,7 @@
 ---
 title: Overland Solar
-logo: " "
+logo: "./overlandSolarLogo.png"
 role: Co-Founder
 startDate: 2007
 ---
-
 Overland Solar Project
