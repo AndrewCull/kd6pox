@@ -32,7 +32,6 @@
         </div>
       </div>
 -->
-      <InstagramFeed />
   </Layout>
 </template>
 
@@ -66,13 +65,9 @@ query {
 </page-query>
 
 <script>
-import InstagramFeed from "~/components/InstagramFeed";
 export default {
   metaInfo: {
     title: "Personal Blog | Andrew Cull"
-  },
-  components: {
-    InstagramFeed
   }
 };
 </script>
