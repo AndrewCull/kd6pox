@@ -10,7 +10,10 @@ module.exports = {
   siteDescription: "Personal Blog",
   plugins: [
     {
-      use: `gridsome-plugin-netlify-cms`
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/cms` 
+      }
     },
     {
       use: '@gridsome/plugin-google-analytics',

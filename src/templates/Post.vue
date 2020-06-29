@@ -56,5 +56,10 @@ export default {
       ],
     }
   },
+   computed: {
+    posts() {
+      return this.$page.tag.belongsTo.edges.map(e => e.node);
+    }
+  }
 };
 </script>
