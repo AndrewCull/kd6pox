@@ -3,7 +3,7 @@ excerpt: A beautiful view of the California wildfires from the air.
 mainImage: ""
 path: /wildfire-sunset/
 title: Sunset in the Summer Wildfires
-date: 2014-11-11
+date: 2014-11-11T00:00:00.000Z
 featured_image:
   src: images/wildfire_sunset.jpg
   alt: Sunset from the Air in a Cessna 180
@@ -16,9 +16,7 @@ Tags:
   - Avaiation
   - Adventure
 ---
-
-![Sunset during the California Wildfires](./wildfire_sunset.jpg)
-
+![Sunset during the California Wildfires](./wildfire_sunset.jpg "Watching the sunset from the air during the Northern California wildfires")
 
 I've been doing a lot of long cross-country flights up and down the West Coast to build more IFR time, all hand-flying the 180 which sure makes you appreciate the idea of an auto-pilot.  On a trip from Los Angeles to Seattle this summer we were stopped temporarily by the numerous flight restrictions over the Northern California Wildfires.  
 
