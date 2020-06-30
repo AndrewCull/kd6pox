@@ -16,7 +16,6 @@ Tags:
   - Avaiation
   - Adventure
 ---
-![Sunset during the California Wildfires](./wildfire_sunset.jpg "Watching the sunset from the air during the Northern California wildfires")
 
 I've been doing a lot of long cross-country flights up and down the West Coast to build more IFR time, all hand-flying the 180 which sure makes you appreciate the idea of an auto-pilot.  On a trip from Los Angeles to Seattle this summer we were stopped temporarily by the numerous flight restrictions over the Northern California Wildfires.  
 
