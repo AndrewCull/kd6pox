@@ -4,7 +4,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
 media_folder: 'static/images/'
-public_folder: 'images'
+public_folder: '/images'
 collections:
   - name: 'writing' # Used in routes, e.g., /admin/collections/blog
     label: 'Posts' # Used in the UI
@@ -21,7 +21,6 @@ collections:
         fields:
           - {name: src, label: Image, widget: image}
           - {name: alt, label: Alt text, widget: string}
-          - {name: title, label: Title, widget: string}
       - {label: 'Body', name: 'body', widget: 'markdown'}
   - name: 'projects' # Used in routes, e.g., /admin/collections/blog
     label: 'Projects' # Used in the UI
