@@ -97,7 +97,6 @@ complex Excel file manipulation that Google Docs can handle, it rises to the
 challenge.
 
 ## After 2 Months
-![Simple Focused Desktop](./fedora-i3-screenshot.png)
 
 It's been two months since I made the switch. I'm on a plane going from one
 client site to another writing this post on my Dell XPS, powered by Fedora 24.
@@ -108,7 +107,6 @@ more comfortable knowing my system is more secure and less likely to suck up
 spyware and adware.  If I want to write a quick python script to get something
 done, it's a natural and accessible part of my normal workflow.
 
-![Fedora with i3 in Action](./fedora-i3-works.png)
 With the i3 window manager, I find my work to be much more focused and
 distraction free. Productivity with multiple screens has improved as
 well.

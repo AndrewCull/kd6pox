@@ -19,7 +19,7 @@ module.exports = {
     {
       use: `gridsome-plugin-netlify-cms`,
       options: {
-        publicPath: `/cms` 
+        publicPath: `/cms`
       }
     },
     {
@@ -52,13 +52,6 @@ module.exports = {
         path: 'projects/**/*.md',
         typeName: 'Project',
         remark: {}
-      }
-    },
-    {
-      use: '@zefman/gridsome-source-instagram',
-      options: {
-        username: 'kd6pox', // Instagram username
-        typeName: 'InstagramPhoto' // The GraphQL type you want the photos to be added under. Defaults to InstagramPhoto
       }
     },
     {
@@ -97,12 +90,25 @@ module.exports = {
         ]
       }
     },
+    {
+      use: 'gridsome-plugin-flexsearch',
+      options: {
+        searchFields: ['title', 'body'],
+        collections: [
+          {
+            typeName: 'Post',
+            indexName: 'Posts',
+            fields: ['title', 'path']
+          }
+        ]
+      }
+    }
   ],
-  transformers: {
-    remark: {}
-  },
-  templates: {
-    Post: '/blog/:path',
+transformers: {
+  remark: { }
+},
+templates: {
+  Post: '/blog/:path',
     Project: '/projects/:title'
-  }
+}
 }

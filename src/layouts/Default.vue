@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper sans-serif lh-copy">
+  <div class="wrapper sans-serif">
     <SiteNavigation/>
     <main class="mt4 ph3-ns mw7-ns center">
     <slot/>

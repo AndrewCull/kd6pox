@@ -1,12 +1,34 @@
 <template>
 <section class="mw8 center">
-    <div v-for="post in $static.posts.edges" :key="post.node.id">
-      <div class="mb4">
-        <g-link :to="post.node.path" class="link dim"><h2 class="mb0 lh-solid">{{ post.node.title }}</h2></g-link>
-        <span class="mt0 black-40"><small>{{ post.node.date | moment("dddd, MMMM Do YYYY")}}</small></span>
-        <p>{{ post.node.excerpt }}</p>
+<div class="flex flex-wrap flex-center">
+
+   
+   
+   
+   
+   
+   
+    <div v-for="post in $static.posts.edges" :key="post.node.id" class="w-100 w-50-ns pr2-ns pb2" >
+     
+     
+     
+     
+     
+
+      <article class="bg-white center w-100 mr2 ba b--black-10">
+        <g-link :to="post.node.path" class="link dim">
+        <template v-if="post.node.featured_image !== null">
+          <g-image :src="'/'+ post.node.featured_image.src" :alt="post.node.featured_image.alt" class="w-100"/>
+          </template>
+          <div class="pv2 ph3">
+        <h2 class="f5 tracked mb0">{{ post.node.title }}</h2>
+          </div>
+        <small class="gray db ph3" style="line-height: 0;">{{ post.node.date | moment("DD MMMM YYYY")}}</small>
+        <p class="ph3 f6 mt3">{{ post.node.excerpt }}</p>
+        </g-link>
+      </article>
       </div>
-    </div>
+</div>
   </section>
 </template>
 <static-query>
@@ -15,10 +37,13 @@ query Posts {
     edges {
       node {
         id
+        featured_image {
+          src
+          alt
+        }
         title
         excerpt
         date
-        timeToRead
         path
         
       }

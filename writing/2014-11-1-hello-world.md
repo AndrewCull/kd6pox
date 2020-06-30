@@ -10,7 +10,6 @@ featured_image:
   alt: Backcountry Skiing in the Selkirks
   title: Getting some turns in the Selkirk Mountains
 ---
-![Backcountry Skiing in the Selkirks](./profile-ski.jpg "Backcountry Skiing in the Selkirk Mountains")
 
 Hi.  My name is Andrew, this is my personal blog - mostly to practice writing and post photos from trips and projects.  I've learned a lot from the personal blogs of many people in business, web development, and design. I hope to share something useful to pay it forward.
 

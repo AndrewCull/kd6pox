@@ -1,8 +1,6 @@
 ---
 title: "It's Time to Install Arch Linux" 
 date: "2016-11-22" 
-layout: post
-readNext: "/osx-to-linux/"
 path: "/arch-linux/"
 ---
 If you've come to this post through a internet search, you're wondering if you should install Arch Linux.  You might as well stop now and head over to [https://www.archlinux.org/](https://www.archlinux.org/) and do it.  That itch won't go away.
