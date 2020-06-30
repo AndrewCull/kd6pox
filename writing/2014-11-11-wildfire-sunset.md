@@ -1,13 +1,20 @@
 ---
-title: Sunset in the Summer Wildfires
-date: "2014-11-11"
-path: "/wildfire-sunset/"
-excerpt: "A beautiful view of the California wildfires from the air."
+excerpt: A beautiful view of the California wildfires from the air.
 mainImage: ""
+path: /wildfire-sunset/
+title: Sunset in the Summer Wildfires
+date: 2014-11-11
+featured_image:
+  src: images/wildfire_sunset.jpg
+  alt: Sunset from the Air in a Cessna 180
+  title: Watching the sunset from the air during the Northern California Wildfires
 tags:
   - aviation
   - flying
   - adventure
+Tags:
+  - Avaiation
+  - Adventure
 ---
 
 ![Sunset during the California Wildfires](./wildfire_sunset.jpg)
