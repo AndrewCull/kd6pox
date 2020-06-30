@@ -1,3 +1,4 @@
+<!--
 <template>
   <div class="cf w-100">
     <h2 class="black">Latest Instagram Posts</h2>
@@ -35,3 +36,4 @@ query {
   }
 }
 </static-query>
+-->
