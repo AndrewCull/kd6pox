@@ -15,6 +15,13 @@ collections:
       - {label: 'Title', name: 'title', widget: 'string'}
       - {label: 'Publish Date', name: 'date', widget: 'datetime'}
       - {label: 'Tags', name: 'Tags', widget: 'list'}
+      - name: featured_image
+        label: Featured image
+        widget: object
+        fields:
+          - {name: src, label: Image, widget: image}
+          - {name: alt, label: Alt text, widget: string}
+          - {name: title, label: Title, widget: string}
       - {label: 'Body', name: 'body', widget: 'markdown'}
   - name: 'projects' # Used in routes, e.g., /admin/collections/blog
     label: 'Projects' # Used in the UI
