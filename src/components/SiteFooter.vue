@@ -1,9 +1,9 @@
 <template>
 <footer class="bt b--black-10 black-70 mt5">
     <div class="ph3 pv3">
-        <div class="flex flex-wrap pv3">
+        <div class="flex flex-wrap pt3 pb4 pb0-ns ">
 
-            <div class="w-100 w-30-ns f6 tc tl-ns">
+            <div class="w-100 w-30-ns f6 tc tl-ns ">
                 About this blog with keywords.
             </div>
              
@@ -12,17 +12,17 @@
       #{{ tag.node.id }}
     </g-link>
     </div>
-    <div class="w-100 w-40-ns tc tr-ns pv3 pv0-ns">
-                  <g-link :to="$static.metadata.linkedIn" class="link grow black-70 f6 f3-ns dib mr3 v-mid">
+    <div class="w-100 w-40-ns tc tr-ns pb3 pt4 pv0-ns">
+                  <g-link :to="$static.metadata.linkedIn" class="link grow black-70 f3 dib mr4 v-mid">
     <font-awesome :icon="['fab', 'linkedin']"/>
   </g-link>
-  <g-link :to="$static.metadata.instagram" class="link grow black-70 f6 f3-ns dib mr3 v-mid">
+  <g-link :to="$static.metadata.instagram" class="link grow black-70 f3 dib mr4 v-mid">
     <font-awesome :icon="['fab', 'instagram']"/>
   </g-link>
-  <g-link :to="$static.metadata.twitter" class="link grow black-70 f6 f3-ns dib mr3 v-mid">
+  <g-link :to="$static.metadata.twitter" class="link grow black-70 f3 dib mr4 v-mid">
     <font-awesome :icon="['fab', 'twitter']"/>
   </g-link>
-  <g-link :to="$static.metadata.github" class="link grow black-70 f6 f3-ns dib mr3 v-mid">
+  <g-link :to="$static.metadata.github" class="link grow black-70 f3 dib v-mid">
     <font-awesome :icon="['fab', 'github']"/>
   </g-link>
             </div>

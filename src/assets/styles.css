@@ -9,3 +9,15 @@ html, body {
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 100%;
     }
+
+
+
+li {
+        margin-bottom: 1.5em;
+        
+    }
+    
+ul, ol {
+    list-style-position: outside;
+}
+    

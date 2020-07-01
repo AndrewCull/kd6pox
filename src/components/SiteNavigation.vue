@@ -17,9 +17,9 @@
       </div>
 
       <div class="w-100 w-50-ns flex-center pt2 tc tr-ns mt3 mt0-ns">
-        <g-link to="/about/" class="link b grow black f6 f5-ns dib mr3 mr4-ns v-mid">About</g-link>
-        <g-link to="/writing/" class="link b grow black f6 f5-ns dib mr3 mr4-ns v-mid">Writing</g-link>
-        <g-link to="/projects/" class="link grow black b f6 f5-ns dib mr3 mr4-ns v-mid">Projects</g-link>
+        <g-link to="/about/" class="link b grow black f6 f5-ns dib mr4 v-mid">About</g-link>
+        <g-link to="/writing/" class="link b grow black f6 f5-ns dib mr4 v-mid">Writing</g-link>
+        <g-link to="/projects/" class="link grow black b f6 f5-ns dib mr4 v-mid">Projects</g-link>
         
         <g-link to="/search/" class="link b grow black f6 f5-ns dib v-mid">
         <svg

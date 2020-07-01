@@ -108,7 +108,7 @@ transformers: {
   remark: { }
 },
 templates: {
-  Post: '/blog/:path',
+  Post: '/writing/:path',
     Project: '/projects/:title'
 }
 }

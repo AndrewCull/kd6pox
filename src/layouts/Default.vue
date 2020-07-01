@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper sans-serif">
     <SiteNavigation/>
-    <main class="mt4 ph3-ns mw7-ns center">
+    <main class="mt4 ph2 ph3-ns mw7-ns center">
     <slot/>
     </main>
     <SiteFooter/>

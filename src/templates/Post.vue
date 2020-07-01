@@ -12,7 +12,7 @@
         </div>
       </div>
 
-      <div v-html="$page.post.content" />
+      <div v-html="$page.post.content" class="lh-copy" />
       <div class="center tc mt4 ba b--black-10 pv3 br2">
         <span class="black-30">Share on Social:</span>
         <share-it icons :url="$page.post.path" />
@@ -64,3 +64,6 @@ export default {
   }
 };
 </script>
+<style scoped>
+
+</style>
